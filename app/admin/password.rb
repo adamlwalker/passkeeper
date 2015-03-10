@@ -1,4 +1,5 @@
 ActiveAdmin.register Password do
+  permit_params :url, :name, :password, :expire, :description
 
 
   # See permitted parameters documentation:
